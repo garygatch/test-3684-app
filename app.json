@@ -9,9 +9,17 @@
     },
     "modules": [],
     "properties": {
-      "version": "1.0.0-SNAPSHOT"
+      "version": "1.0.0-SNAPSHOT",
+      "description": "test"
     },
-    "environments": [],
+    "environments": [
+      {
+        "name": "env1",
+        "description": "",
+        "active": false,
+        "properties": []
+      }
+    ],
     "themes": [],
     "auth": {
       "enabled": true,

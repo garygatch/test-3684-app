@@ -69,5 +69,6 @@
     {
       "path": "index.js"
     }
-  ]
+  ],
+  "description": "abc"
 }
