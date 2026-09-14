@@ -18,6 +18,12 @@
         "description": "",
         "active": false,
         "properties": []
+      },
+      {
+        "name": "env2",
+        "description": "",
+        "active": false,
+        "properties": []
       }
     ],
     "themes": [],
@@ -97,6 +103,9 @@
     },
     {
       "path": "index.css"
+    },
+    {
+      "path": "test.css"
     }
   ],
   "localScripts": [
@@ -106,6 +115,9 @@
     },
     {
       "path": "index.js"
+    },
+    {
+      "path": "test.js"
     }
   ]
 }

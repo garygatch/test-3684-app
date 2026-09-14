@@ -59,6 +59,9 @@
     },
     {
       "path": "index.css"
+    },
+    {
+      "path": "test.css"
     }
   ],
   "localScripts": [
@@ -68,7 +71,11 @@
     },
     {
       "path": "index.js"
+    },
+    {
+      "path": "dir/test.js",
+      "parentDirectoryId": "rY-RLK1qDeZ1gVTvnL3Gf"
     }
   ],
-  "description": "abc"
+  "description": "b"
 }
