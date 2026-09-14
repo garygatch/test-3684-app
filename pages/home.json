@@ -1,0 +1,339 @@
+{
+  "name": "home",
+  "type": "page",
+  "url": "/home",
+  "params": {},
+  "variables": [
+    {
+      "name": "date",
+      "description": "",
+      "type": "property",
+      "value": "'07-15'"
+    },
+    {
+      "name": "dateYear",
+      "description": "",
+      "type": "property",
+      "value": "'07-15-2026'"
+    },
+    {
+      "name": "yr",
+      "description": "",
+      "type": "property",
+      "value": "''"
+    },
+    {
+      "name": "mmdd",
+      "description": "",
+      "type": "property",
+      "value": "''"
+    },
+    {
+      "name": "$notificationManager",
+      "type": "service"
+    },
+    {
+      "name": "fire",
+      "description": "",
+      "type": "method",
+      "body": "$ctrl.$notificationManager.show('Fire')",
+      "invokeOnLoad": false,
+      "isAsync": false,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    }
+  ],
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "w-full",
+        "items-center",
+        "p-8"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "layout": {
+        "container": {
+          "type": "grid",
+          "columns": [
+            {
+              "type": "span",
+              "value": 1
+            },
+            {
+              "type": "span",
+              "value": 1
+            },
+            {
+              "type": "span",
+              "value": 1
+            }
+          ],
+          "rows": [
+            {
+              "type": "other",
+              "value": "auto"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "name": "div",
+          "nodeName": "div",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "grid-item",
+              "columnStart": 1,
+              "columnAxisAlignment": "start"
+            }
+          },
+          "children": [
+            {
+              "name": "Date Time Picker",
+              "nodeName": "bln-date-time-picker",
+              "elementId": "",
+              "attributes": [
+                {
+                  "property": "core",
+                  "value": ""
+                }
+              ],
+              "classList": [],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [],
+              "comments": "",
+              "type": "core-component",
+              "expressions": [
+                {
+                  "to": "allowedValues",
+                  "expression": "['month', 'day']"
+                },
+                {
+                  "to": "dateFormat",
+                  "expression": "'MM-YY'"
+                }
+              ],
+              "formControl": {
+                "modelName": "value"
+              }
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "div",
+          "nodeName": "div",
+          "elementId": "",
+          "attributes": [],
+          "classList": [
+            "mid"
+          ],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "grid-item",
+              "columnStart": 2,
+              "columnAxisAlignment": "center"
+            }
+          },
+          "children": [
+            {
+              "name": "Date Time Picker",
+              "nodeName": "bln-date-time-picker",
+              "elementId": "",
+              "attributes": [
+                {
+                  "property": "core",
+                  "value": ""
+                }
+              ],
+              "classList": [],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [],
+              "comments": "",
+              "type": "core-component",
+              "expressions": [
+                {
+                  "to": "allowedValues",
+                  "expression": "['month', 'day']"
+                },
+                {
+                  "to": "dateFormat",
+                  "expression": "'MM-YY'"
+                }
+              ],
+              "formControl": {
+                "modelName": "value"
+              }
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "div",
+          "nodeName": "div",
+          "elementId": "",
+          "attributes": [],
+          "classList": [
+            "test"
+          ],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "grid-item",
+              "columnStart": 3,
+              "columnAxisAlignment": "end"
+            }
+          },
+          "children": [
+            {
+              "name": "Date Time Picker",
+              "nodeName": "bln-date-time-picker",
+              "elementId": "",
+              "attributes": [
+                {
+                  "property": "core",
+                  "value": ""
+                }
+              ],
+              "classList": [],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [],
+              "comments": "",
+              "type": "core-component",
+              "expressions": [
+                {
+                  "to": "allowedValues",
+                  "expression": "['month', 'day']"
+                },
+                {
+                  "to": "dateFormat",
+                  "expression": "'MM-YY'"
+                }
+              ],
+              "formControl": {
+                "modelName": "value"
+              }
+            }
+          ],
+          "comments": ""
+        }
+      ],
+      "comments": ""
+    },
+    {
+      "name": "Button",
+      "nodeName": "bln-button",
+      "elementId": "",
+      "attributes": [
+        {
+          "property": "core",
+          "value": ""
+        }
+      ],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [],
+      "comments": "",
+      "type": "core-component",
+      "expressions": [
+        {
+          "expression": "$ctrl.fire()",
+          "to": "onClick"
+        }
+      ]
+    }
+  ],
+  "authenticationRequired": true
+}

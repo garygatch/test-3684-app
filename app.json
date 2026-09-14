@@ -1,0 +1,103 @@
+{
+  "name": "dtPickerPopUp",
+  "type": "app",
+  "defaultPage": "home",
+  "config": {
+    "config": {
+      "parameters": [],
+      "script": ""
+    },
+    "modules": [],
+    "properties": {
+      "version": "1.0.0-SNAPSHOT"
+    },
+    "environments": [],
+    "themes": [],
+    "auth": {
+      "enabled": true,
+      "mockedUserAccounts": [
+        {
+          "fullname": "aaaaaa",
+          "email": "gary.gatchalian@torocloud.com",
+          "password": "$2b$10$TnRQOsmW.P9XB9xBme6.UuNFXPoSJsXne1U2mQrNfqY/6u5vSaRf2",
+          "enabled": true,
+          "scopes": [],
+          "id": "l5tL1yoxWSmp_MNUVMbM-",
+          "memberId": 1,
+          "dateRegistered": 1787713212661000
+        }
+      ]
+    }
+  },
+  "directories": {
+    "assets": [
+      {
+        "id": "J9G8QR29YhwOLe6puONX-",
+        "name": "aa"
+      }
+    ],
+    "components": [],
+    "pages": [],
+    "scripts": [
+      {
+        "id": "fCGsfZxiQeq-3GN6qBFOi",
+        "name": "dir"
+      }
+    ],
+    "services": [],
+    "stylesheets": [
+      {
+        "id": "dt6pBnuEHZp61MpMleyfN",
+        "name": "dir"
+      }
+    ]
+  },
+  "externalStylesheets": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css",
+      "parentDirectoryId": "dt6pBnuEHZp61MpMleyfN"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+    }
+  ],
+  "externalScripts": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js",
+      "parentDirectoryId": "fCGsfZxiQeq-3GN6qBFOi",
+      "properties": {
+        "type": "default",
+        "executionMode": "default",
+        "crossorigin": "anonymous",
+        "referrerpolicy": "default"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js",
+      "properties": {
+        "type": "default",
+        "executionMode": "default",
+        "crossorigin": "anonymous",
+        "referrerpolicy": "default"
+      }
+    }
+  ],
+  "localStylesheets": [
+    {
+      "path": "dir/insideDir.css",
+      "parentDirectoryId": "dt6pBnuEHZp61MpMleyfN"
+    },
+    {
+      "path": "index.css"
+    }
+  ],
+  "localScripts": [
+    {
+      "path": "dir/insideDir.js",
+      "parentDirectoryId": "fCGsfZxiQeq-3GN6qBFOi"
+    },
+    {
+      "path": "index.js"
+    }
+  ]
+}
